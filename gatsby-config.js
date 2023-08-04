@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Eric Huang',
+    title: 'Heriaue Mello',
     description:
-      'Eric Huang is a Senior Mobile Application Developer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Heriaue Mello is a Senior Mobile Application Developer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://eric-huang.pro', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Eric Huang',
-        short_name: 'Eric Huang',
+        name: 'Heriaue Mello',
+        short_name: 'Heriaue Mello',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
